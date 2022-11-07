@@ -8,13 +8,13 @@ const Jumbotron = () => {
         buttonURL: "#"
         };
     return (
-        <div className="jumbotron bg-light" >
-            <h1 className="display-4">{jumboText.title}</h1>
-            <p className="lead">{jumboText.description}</p>
-            <a className="btn btn-primary btn-lg" href={jumboText.buttonURL} role="button">
-                {jumboText.buttonLabel}
-            </a>
+        <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Welcome to After85</h1>
+          <p>After85. Technology. Innovation. Inspiration. To be of service. What do they have in common? All things to help push culture and society forward</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
         </div>
+      </div>
             )
 }
 

@@ -14,7 +14,7 @@ const Home = () => {
 		<div>
 			<NavBar/>
 			<div className="container-fluid" >
-				<Jumbotron />,
+				<Jumbotron />
 			
 				<CardBox />
 			</div>

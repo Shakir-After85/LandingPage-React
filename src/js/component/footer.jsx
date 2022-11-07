@@ -2,8 +2,10 @@ import React from "react";
 
 const Footer = () => {
     return (
-       <div id="footer"> 
-        <span className="position-absolute top-50 start-50 translate-middle">Copyright __ Your Website 2022</span>
+       <div id="footer" className="d-flex justify-content-center bg-dark text-light py-3" > 
+        <span className="text-center">Copyright <i class="far fa-copyright"></i> Your Website 2022</span>
+
+        
         </div>
     )
 }
